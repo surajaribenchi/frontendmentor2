@@ -1,0 +1,122 @@
+
+  @import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@1,300&family=Orbitron&family=Red+Hat+Display:wght@500;700;900&display=swap');
+
+
+body{
+   background-color: hsl(225, 100%, 94%); 
+   display: flex;
+   align-items: center;
+   justify-content: center;
+   flex-direction: column;
+   height: 100%;
+   width: 1440px;
+   position: relative;
+}
+.image{
+    display:flex;
+    align-items: center;
+    justify-content: center;
+ 
+
+
+}
+.container{
+    position: absolute;
+    top: 150px;
+    background-color: white;
+    height: 700px;
+    border-radius: 5%;
+}
+.para{
+    font-size: 16px;
+    padding-left: 20%;
+    font-family: 'Red Hat Display', sans-serif;
+    font-weight: 500;
+    color: hsl(224, 23%, 55%);
+
+}
+h1{
+    padding-left: 25%;
+    margin-top: 10%;
+    font-family: 'Red Hat Display', sans-serif;
+    font-weight: 900;
+    color:  hsl(223, 47%, 23%);
+
+}
+.side{
+    padding-left: 15%;
+}
+.box{
+    background-color:hsl(225, 100%, 98%);
+    margin-top: 10%;
+    display: grid;
+    grid-template-columns: 0.5fr 0.75fr 1fr;
+    margin-left: 10%;
+    margin-right: 10%;
+    border-radius: 10%;
+}
+
+.text1{
+    font-weight: 700;
+    font-family: 'Red Hat Display', sans-serif;
+    color:  hsl(223, 47%, 23%); ;
+    
+
+}
+.text2{
+    font-family: 'Red Hat Display', sans-serif; 
+    color: hsl(224, 23%, 55%);
+}
+.text3{
+    font-family: 'Red Hat Display', sans-serif; 
+    color: hsl(245, 75%, 52%);
+    font-weight: 500;
+    text-decoration: underline;
+    padding-right: 20%;
+}
+.music{
+    padding-left:20%;
+    padding-top: 20%;
+    padding-bottom: 20%;
+}
+.part1{
+    display: flex;
+    align-self: center;
+    flex-direction: column;
+
+}
+.part3{
+    display: flex;
+    align-items: center;
+    justify-content: end;
+
+}
+.button{
+    margin-top: 10%;
+    margin-bottom:5% ;
+    background-color: hsl(245, 75%, 52%);
+    margin-left: 10%;
+    margin-right: 10%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 5%;
+}
+.text{
+  color: white;
+  font-family: 'Red Hat Display', sans-serif; 
+  font-weight: 700;
+  padding-top: 5%;
+  padding-bottom: 5%;
+}
+.last{
+    color:hsl(224, 23%, 55%);
+    font-family: 'Red Hat Display', sans-serif; 
+    font-weight: 700;
+    margin-left: 38%;
+
+}
+svg{
+    border-top-left-radius: 10%;
+    border-top-right-radius: 10%;
+}
